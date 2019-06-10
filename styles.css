@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: PALETURQUOISE;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+body {
+  background-color: oldlace;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+img {
+  height: 300px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  img {
+    height: 400px;
+  }
+}
